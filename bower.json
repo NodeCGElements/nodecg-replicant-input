@@ -23,7 +23,7 @@
     "test",
     "tests"
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "paper-input": "PolymerElements/paper-input#~1.0.16",
     "iron-component-page": "PolymerElements/iron-component-page#~1.0.8",
