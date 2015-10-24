@@ -7,6 +7,17 @@
 <link rel="import" href="../paper-input/paper-input-char-counter.html">
 <link rel="import" href="../nodecg-replicant/nodecg-replicant.html">
 
+<!--
+`nodecg-replicant-input` is a custom implementation of [`paper-input`](https://elements.polymer-project.org/elements/paper-input)
+that binds its value to a NodeCG Replicant.
+
+It has all the same properties and methods as `paper-input`, but adds two more: `replicantName` and `replicantBundle`.
+
+    <nodecg-replicant-input label="Input label" replicant-name="myReplicant"></nodecg-replicant-input>
+
+`replicantBundle` is optional and defaults to the value of the current bundle.
+-->
+
 <dom-module id="nodecg-replicant-input">
     <template>
 
@@ -34,7 +45,7 @@
 
         <paper-input-container no-label-float="[[noLabelFloat]]" always-float-label="[[_computeAlwaysFloatLabel(alwaysFloatLabel,placeholder)]]" auto-validate$="[[autoValidate]]" disabled$="[[disabled]]" invalid="[[invalid]]">
 
-            <nodecg-replicant name="{{replicantName}}" bundle="{{replicantBundle}}"
+            <nodecg-replicant replicant-name="[[replicantName]]" replicant-bundle="[[replicantBundle]]"
                               value="{{value}}"></nodecg-replicant>
 
             <content select="[prefix]"></content>
