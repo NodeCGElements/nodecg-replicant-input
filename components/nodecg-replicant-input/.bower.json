@@ -1,0 +1,43 @@
+{
+  "name": "nodecg-replicant-input",
+  "homepage": "https://github.com/NodeCGElements/nodecg-replicant-input",
+  "authors": [
+    "Alex Van Camp <email@alexvan.camp>"
+  ],
+  "description": "A <paper-input> element that has two-way binding with a Replicant.",
+  "main": "nodecg-replicant-input.html",
+  "moduleType": [],
+  "keywords": [
+    "nodecg",
+    "dashboard",
+    "panel",
+    "element",
+    "polymer",
+    "component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "nodecg-replicant": "NodeCGElements/nodecg-replicant#~0.5.4",
+    "paper-input": "PolymerElements/paper-input#^1.0.18"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.1.4"
+  },
+  "_release": "7de8bfcdad",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7de8bfcdad20ade9d71f18d7f7559bd7c3272223"
+  },
+  "_source": "git://github.com/NodeCGElements/nodecg-replicant-input.git",
+  "_target": "master",
+  "_originalSource": "NodeCGElements/nodecg-replicant-input",
+  "_direct": true
+}
