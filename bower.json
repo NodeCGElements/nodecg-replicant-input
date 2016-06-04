@@ -25,8 +25,8 @@
   ],
   "version": "0.3.1",
   "dependencies": {
-    "nodecg-replicant": "NodeCGElements/nodecg-replicant#~0.5.4",
-    "paper-input": "PolymerElements/paper-input#^1.0.18"
+    "nodecg-replicant": "NodeCGElements/nodecg-replicant#^0.5.7",
+    "paper-input": "PolymerElements/paper-input#^1.1.11"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.1.4"

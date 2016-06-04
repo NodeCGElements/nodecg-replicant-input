@@ -43,7 +43,9 @@ It has all the same properties and methods as `paper-input`, but adds two more: 
             }
         </style>
 
-        <paper-input-container no-label-float="[[noLabelFloat]]" always-float-label="[[_computeAlwaysFloatLabel(alwaysFloatLabel,placeholder)]]" auto-validate$="[[autoValidate]]" disabled$="[[disabled]]" invalid="[[invalid]]">
+        <paper-input-container no-label-float="[[noLabelFloat]]"
+                               always-float-label="[[_computeAlwaysFloatLabel(alwaysFloatLabel,placeholder)]]"
+                               auto-validate$="[[autoValidate]]" disabled$="[[disabled]]" invalid="[[invalid]]">
 
             <nodecg-replicant replicant-name="[[replicantName]]" replicant-bundle="[[replicantBundle]]"
                               value="{{value}}"></nodecg-replicant>
