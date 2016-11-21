@@ -1,2 +1,10 @@
-bower_components/
-.idea/
+node_modules
+bower_components
+coverage
+
+# JetBrains IDEs (IntelliJ/WebStorm)
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/copyright/profiles_settings.xml
+/.idea/workspace.xml
+/.idea/shelf/
