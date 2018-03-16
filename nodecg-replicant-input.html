@@ -13,7 +13,7 @@ It has all the same properties and methods as `paper-input`, but adds two more: 
 -->
 
 <script>
-	class NodecgToggle extends Polymer.NodeCGReplicantTargeting(customElements.get('paper-input')) {
+	class NodecgInput extends Polymer.NodeCGReplicantTargeting(customElements.get('paper-input')) {
 		static get is() {
 			return 'nodecg-replicant-input';
 		}
@@ -33,5 +33,5 @@ It has all the same properties and methods as `paper-input`, but adds two more: 
 			this.value = newVal;
 		}
 	}
-	customElements.define(NodecgToggle.is, NodecgToggle);
+	customElements.define(NodecgInput.is, NodecgInput);
 </script>
